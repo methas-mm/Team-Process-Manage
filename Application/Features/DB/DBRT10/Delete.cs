@@ -1,0 +1,38 @@
+﻿using Application.Behaviors;
+using Application.Interfaces;
+using Domain.Entities.DB;
+using MediatR;
+using Microsoft.EntityFrameworkCore;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Application.Features.DB.DBRT10
+{
+   public class Delete
+    {
+        public class Command : DbEmployee, ICommand
+        {
+
+        }
+        public class Handler : IRequestHandler<Command, Unit>
+        {
+            private readonly ICleanDbContext _context;
+
+            public Handler(ICleanDbContext context)
+            {
+                _context = context;
+            }
+
+            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            {
+
+                var item = await _context.Set<DbEmployee>().FirstOrDefaultAsync(i => i.EmployeeCode == request.EmployeeCode);
+                _context.Entry(item).Property("RowVersion").OriginalValue = request.RowVersion;
+                _context.Set<DbEmployee>().Remove(item);
+                await _context.SaveChangesAsync(cancellationToken);
+
+                return Unit.Value;
+            }
+        }
+    }
+}

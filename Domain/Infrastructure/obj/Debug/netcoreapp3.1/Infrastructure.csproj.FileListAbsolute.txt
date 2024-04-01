@@ -1,0 +1,14 @@
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
+D:\Team Process Manage\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+D:\Team Process Manage\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
